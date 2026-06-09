@@ -53,15 +53,10 @@
 .arrow{
 
     border:none;
-
     background:transparent;
-
     font-size:40px;
-
     color:#9b2c23;
-
     cursor:pointer;
-
     transition:.3s;
 }
 

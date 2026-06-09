@@ -24,17 +24,11 @@
 .video-thumb{
 
     background:white;
-
     padding:15px 25px;
-
     border-radius:12px;
-
     cursor:pointer;
-
     font-weight:600;
-
     transition:.3s;
-
     box-shadow:
         0 4px 10px rgba(0,0,0,.08);
 }
@@ -52,18 +46,12 @@
 .video-arrow{
 
     border:none;
-
     background:white;
-
     width:45px;
     height:45px;
-
     border-radius:50%;
-
     cursor:pointer;
-
     font-size:20px;
-
     box-shadow:
         0 4px 10px rgba(0,0,0,.1);
 }
@@ -76,9 +64,7 @@
 #youtubePlayer{
 
     border:none;
-
     border-radius:20px;
-
     box-shadow:
         0 10px 30px rgba(0,0,0,.15);
 }
@@ -91,37 +77,26 @@
 .chapters h2{
 
     text-align:center;
-
     margin-bottom:20px;
 }
 
 #chapterList{
 
     max-width:700px;
-
     margin:auto;
 }
 
 .chapter-card{
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
     padding:18px;
-
     margin-bottom:15px;
-
     background:white;
-
     border-radius:15px;
-
     cursor:pointer;
-
     transition:.3s;
-
     box-shadow:
         0 4px 10px rgba(0,0,0,.08);
 }
@@ -129,7 +104,6 @@
 .chapter-card:hover{
 
     transform:translateY(-3px);
-
     box-shadow:
         0 10px 20px rgba(0,0,0,.15);
 }
@@ -137,7 +111,6 @@
 .time{
 
     color:#f05a1a;
-
     font-weight:bold;
 }
 
@@ -149,53 +122,39 @@
 .generator{
 
     margin-top:50px;
-
     text-align:center;
 }
 
 .generator input{
 
     width:400px;
-
     padding:12px;
-
     border-radius:10px;
-
     border:1px solid #ccc;
 }
 
 .generator button{
 
     padding:12px 20px;
-
     margin-left:10px;
-
     border:none;
-
     background:#f05a1a;
-
     color:white;
-
     border-radius:10px;
-
     cursor:pointer;
 }
 
 #generatedChapters{
 
     max-width:700px;
-
     margin:30px auto;
 }
 
 .generated-card{
 
     background:white;
-
     padding:15px;
-
     margin-bottom:10px;
-
     border-radius:12px;
 
     box-shadow:
