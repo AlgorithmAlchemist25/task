@@ -1,0 +1,130 @@
+#task3{
+    padding:80px 20px;
+}
+
+#task3 h1{
+    text-align:center;
+    color:#a22b20;
+    margin-bottom:40px;
+}
+
+.video-form-container{
+
+    width:900px;
+
+    margin:auto;
+
+    position:relative;
+}
+
+#player{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.15);
+}
+
+.lead-form{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:
+        translate(-50%,-50%);
+
+    background:white;
+
+    padding:30px;
+
+    width:400px;
+
+    border-radius:20px;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,.25);
+
+    display:none;
+
+    animation:fadeIn .4s ease;
+}
+
+.lead-form h2{
+
+    margin-bottom:10px;
+}
+
+.lead-form p{
+
+    margin-bottom:20px;
+}
+
+.lead-form form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+}
+
+.lead-form input{
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+}
+
+.lead-form button[type="submit"]{
+
+    background:#f05a1a;
+
+    color:white;
+
+    border:none;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+#closeForm{
+
+    position:absolute;
+
+    right:15px;
+
+    top:15px;
+
+    background:none;
+
+    border:none;
+
+    font-size:20px;
+
+    cursor:pointer;
+}
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:
+        translate(-50%,-40%);
+    }
+
+    to{
+        opacity:1;
+        transform:
+        translate(-50%,-50%);
+    }
+}

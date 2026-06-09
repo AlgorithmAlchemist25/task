@@ -1,0 +1,84 @@
+#task1{
+    padding:80px 20px;
+}
+
+#task1 h1{
+    text-align:center;
+    font-size:42px;
+    color:#a22b20;
+    margin-bottom:50px;
+}
+
+.privilege-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.carousel-wrapper {
+    width: 900px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 0;                        /* removed gap */
+    transition: transform .5s ease;
+}
+
+.card {
+    width: 300px;                  /* equal width for all */
+    flex-shrink: 0;
+    opacity: .45;
+    transform: scale(.85);
+    transition:
+        transform .5s ease,
+        opacity .5s ease;
+}
+
+.card.active {
+    opacity: 1;
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+
+.arrow{
+
+    border:none;
+
+    background:transparent;
+
+    font-size:40px;
+
+    color:#9b2c23;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.arrow:hover{
+    transform:scale(1.15);
+}
+
+@media(max-width:768px){
+    .carousel-wrapper {
+        width: 320px;
+    }
+
+    .card {
+        width: 107px;             /* 320 / 3 */
+    }
+
+    #task1 h1 {
+        font-size: 30px;
+    }
+}

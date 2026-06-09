@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/task1.css">
+    <link rel="stylesheet" href="css/task2.css">
+    <link rel="stylesheet" href="css/task3.css">
+</head>
+<body>
+    <section id="task1">
+
+    <h1>Exclusive Privileges</h1>
+
+    <div class="privilege-container">
+
+        <button class="arrow" id="prevBtn">
+            &#10094;
+        </button>
+
+        <div class="carousel-wrapper">
+
+            <div class="carousel" id="carousel">
+
+                <!-- Clone of last card -->
+                <div class="card">
+                    <img src="assets/images/card4.png" alt="">
+                </div>
+
+                <!-- Real cards -->
+                <div class="card">
+                    <img src="assets/images/card1.png" alt="">
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/card2.png" alt="">
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/card3.png" alt="">
+                </div>
+
+                <div class="card">
+                    <img src="assets/images/card4.png" alt="">
+                </div>
+
+                <!-- Clone of first card -->
+                <div class="card">
+                    <img src="assets/images/card1.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="arrow" id="nextBtn">
+            &#10095;
+        </button>
+
+    </div>
+
+</section>
+
+<section id="task2">
+
+    <h1>Video Chapters</h1>
+
+    <div class="video-carousel">
+
+        <button id="videoPrev" class="video-arrow">
+            &#10094;
+        </button>
+
+        <div class="video-list">
+
+            <div class="video-thumb active-video"
+                data-video="RJTCAL1DRro">
+                Video 1
+            </div>
+
+            <div class="video-thumb"
+                data-video="jj_aUFX8SV8">
+                Video 2
+            </div>
+
+            <div class="video-thumb"
+                data-video="xmmxkmVSiq0">
+                Video 3
+            </div>
+
+        </div>
+
+        <button id="videoNext" class="video-arrow">
+            &#10095;
+        </button>
+
+    </div>
+
+    <div class="player-container">
+
+        <iframe
+            id="youtubePlayer"
+            width="900"
+            height="500"
+            src="https://www.youtube.com/embed/RJTCAL1DRro"
+            title="YouTube Video"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <div class="chapters">
+
+        <h2>Video Chapters</h2>
+
+        <div id="chapterList"></div>
+
+    </div>
+
+    <div class="generator">
+
+        <h2>Automatic Chapter Generator</h2>
+
+        <input
+            type="text"
+            id="videoUrl"
+            placeholder="Paste YouTube URL">
+
+        <button id="generateBtn">
+            Generate Chapters
+        </button>
+
+        <div id="generatedChapters"></div>
+
+    </div>
+
+</section>
+
+<section id="task3">
+
+    <h1>Lead Capture Form</h1>
+
+    <div class="video-form-container">
+
+        <div id="player"></div>
+
+        <div id="leadForm" class="lead-form">
+
+            <h2>Interested?</h2>
+
+            <p>Leave your details and we'll contact you.</p>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Full Name"
+                    required>
+
+                <input
+                    type="email"
+                    placeholder="Email Address"
+                    required>
+
+                <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    required>
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+            <button id="closeForm">
+                ✕
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script src="js/task1.js"></script>
+<script src="js/task2.js"></script>
+<script src ="js/task3.js"></script>
+</body>
+</html>
